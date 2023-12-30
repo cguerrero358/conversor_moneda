@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Open+Sans&family=Permanent+Marker&family=Roboto:wght@300&family=Rubik+Moonrocks&family=Splash&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2666f7d089.js" crossorigin="anonymous"></script>
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Conversor de Moneda Nacional</h1>
+    <hr/>
+  </header>
+    
+    <main>
+          <div>
+          <h2>Pesos CLP</h2>          
+            <input id="clp" type="text" placeholder="Ingrese el monto en Pesos CLP" />
+          
+            <h4>Moneda a convertir :</h4>
+            <select id="moneda">
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="uf">UF</option>
+            </select>
+            <h4></h4>
+            <button id="btn">Buscar</button>
+          
+            <p id="resultado"></p>
+
+          <div id="chart"></div>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./assets/js/index.js"></script> 
+</body>
+</html>
